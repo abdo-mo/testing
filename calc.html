@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta name="discription" content="welcome to my web site">
+<meta charset="utf-8">
+<link rel="stylesheet" href="calc.css">
+<title>calculater</title>
+<style>
+    .hide
+    {
+        visibility:hidden;
+    }
+</style>    
+</head>
+<body>
+    <h1>This is a simple calculator</h1>
+<form>
+    <table>
+        <tr>
+        <td class="border"><label>First Number</label></td>
+        <td><input type="number" id="num1"></td>
+        </tr>
+        <tr>
+        <td class="border"><label>Operation</label></td>
+        <td><input type= "text" id="operation"></td>
+        </tr>
+        <tr>
+        <td class="border"><label>Second Number</label></td>
+        <td><input type ="number" id="num2"></td>
+        </tr>
+        <tr>
+        <td class="border"><label>The Result</label></td>
+        <td><input type="text" id="result" placeholder=
+                   "The Result"></td>
+        </tr>
+    </table>
+</form>
+    <button onclick="test()">calculate</button>
+    <br/>
+    <div id="time">test</div>
+    <br/>
+    <button >test</button>
+    <form>
+        <input type="checkbox" id="check" checked/>
+        <label>Show Date And Time</label>
+    </form>
+<script src="calc.js"></script>
+</body>
+</html>
